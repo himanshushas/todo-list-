@@ -6,7 +6,11 @@
 }
 
 body {
-    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7VTllzLXlR5PXUEIvc8GhjQs4ppj3kzFPzhLagmYYSeLFgJJVyHXzI9o&s=10');
+ background:
+        radial-gradient(circle at top left, rgba(255,255,255,0.5), transparent 40%),
+        radial-gradient(circle at bottom right, rgba(255,220,170,0.4), transparent 40%),
+        linear-gradient(135deg, #f7f7f7, #f1dba7, #d8e8b8);
+
     display: flex;
     justify-content: center;
     align-items: center;
